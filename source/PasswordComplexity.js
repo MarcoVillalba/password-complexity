@@ -54,7 +54,9 @@ const calculateComplexity = (password) =>{
             return PasswordComplexityValues.GOOD;
         else
             return PasswordComplexityValues.WEAK;
-    }      
+    }     
+    
+    
 } 
 
 module.exports = { calculateComplexity, PasswordComplexityValues }
